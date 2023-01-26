@@ -1,8 +1,7 @@
 # flake8: noqa
 from .version import version as __version__
 
-# pandas dataframe decorators
-from . import decorators
+from . import phik_pandas
 
 # array functions
 from .phik import phik_from_array
